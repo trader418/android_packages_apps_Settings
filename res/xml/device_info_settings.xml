@@ -131,6 +131,12 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
 
+	<!-- Temasek version -->
+        <Preference android:key="temasek_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/temasek_version_title"
+                android:summary="@string/temasek_version_default"/>
+
         <!-- Build date -->
         <Preference android:key="build_date"
                 style="?android:preferenceInformationStyle"

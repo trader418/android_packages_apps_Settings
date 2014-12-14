@@ -25,4 +25,10 @@
          android:fragment="com.android.settings.temasek.LockClock"
          android:title="@string/lock_clock_title" />
 
+    <!-- Gesture anywhere -->
+    <PreferenceScreen
+         android:key="gesture_anywhere"
+         android:fragment="com.android.settings.temasek.gestureanywhere.GestureAnywhereSettings"
+         android:title="@string/gesture_anywhere_title" />
+
 </PreferenceScreen>

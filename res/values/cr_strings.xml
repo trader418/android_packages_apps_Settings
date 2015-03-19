@@ -1283,4 +1283,10 @@
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go Mode</string>
 
+    <!-- Mutt -->
+    <string name="mutt_switch_label">Disable Background Suppression</string>
+    <string name="mutt_slide_head">Background Suppression Aggressiveness</string>
+    <string name="mutt_slide_left">Data\nFreshness</string>
+    <string name="mutt_slide_right">Battery\nSavings</string>
+
 </resources>

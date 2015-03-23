@@ -21,4 +21,7 @@
     <!-- Viper4Android -->
     <string name="viper_title">Viper4Android</string>
 
+    <!-- OTA update -->
+    <string name="ota_title">OTA update</string>
+
 </resources>

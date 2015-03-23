@@ -1316,6 +1316,17 @@ public class SettingsActivity extends Activity
                             UserManager.DISALLOW_DEBUGGING_FEATURES)) {
                         removeTile = true;
                     }
+                } else if (id == R.id.ota_settings) {
+                    // Embedding into Settings only if app exists (user could manually remove it)
+                    boolean supported = false;
+                    try {
+                        supported = (getPackageManager().getPackageInfo("com.ota.updates", 0).versionCode >= 0);
+                    } catch (PackageManager.NameNotFoundException e) {
+ 
+                    }
+                    if (!supported) {
+                        removeTile = true;
+                    }
                 } else if (id == R.id.supersu_settings) {
                     // Embedding into Settings is supported from SuperSU v1.85 and up
                     boolean supported = false;

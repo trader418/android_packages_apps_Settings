@@ -1151,4 +1151,8 @@
     <string name="heads_up_time_out_8sec">8 seconds</string>
     <string name="heads_up_time_out_10sec">10 seconds</string>
 
+    <!-- Battery light settings -->
+    <string name="battery_light_full_color_title">Charged (90%)</string>
+    <string name="battery_light_really_full_color_title">Charged (100%)</string>
+
 </resources>

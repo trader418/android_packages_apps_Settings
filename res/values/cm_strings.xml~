@@ -796,6 +796,9 @@
     <string name="preview_version_title">Version</string>
     <string name="preview_country_title">Country</string>
     <string name="preview_carrier_title">Carrier</string>
+<<<<<<< HEAD
+    <string name="stats_collection_title">Stats collection</string>
+    <string name="stats_collection_summary">When enabled, allows metrics collection.</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Reset pattern</string>
@@ -814,4 +817,6 @@
     <string name="pa_login_checking_password">Checking account\u2026</string>
     <string name="pa_login_incorrect_login">Login was incorrect</string>
 
+=======
+>>>>>>> parent of 84c4475... Settings: add opt out stats event
 </resources>

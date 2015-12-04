@@ -49,4 +49,10 @@
          android:fragment="com.android.settings.temasek.LockScreenSettings"
          android:title="@string/temasek_lockscreen_title" />
 
+    <!-- Recent panel settings -->
+    <PreferenceScreen
+         android:key="recents_panel"
+         android:fragment="com.android.settings.temasek.RecentsPanelSettings"
+         android:title="@string/recents_panel_title"/>
+
 </PreferenceScreen>

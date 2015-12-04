@@ -162,11 +162,6 @@
                 android:summary="@string/status_bar_show_weather_summary"
                 android:defaultValue="true" />
 
-            <PreferenceScreen
-                android:key="lockscreen_weather"
-                android:title="@string/lock_screen_weather_settings_title"
-                android:fragment="com.android.settings.temasek.LockScreenWeatherSettings" />
-
         </PreferenceCategory>
 
         <PreferenceCategory

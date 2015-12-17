@@ -841,4 +841,5 @@
     <string name="category_misc">Miscellaneous</string>
     <string name="title_general">General</string>
     <string name="advanced">Advanced</string>
+    <string name="lcd_density_prompt_message">Some apps may not function at non-standard dpi.\n\nThis will restart your phone.</string>
 </resources>

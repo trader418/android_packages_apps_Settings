@@ -74,16 +74,16 @@
     <!-- Recents panel settings -->
     <string name="recents_panel_title">Anwendungsverlauf</string>
     <string name="recents_panel_settings">Anwendungsverlauf Einstellungen</string>
-    <string name="show_clear_all_recents_button_title">Alle gecachten Apps schließen Button</string>
-    <string name="show_clear_all_recents_button_summary">Alle schließen Button anzeigen</string>
-    <string name="recents_clear_all_location_title">Position des alle schließen Buttons</string>
+    <string name="show_clear_all_recents_button_title">Alle aktuellen Anwendungen schließen Button</string>
+    <string name="show_clear_all_recents_button_summary">Alle aktuellen Anwendungen schließen Button anzeigen</string>
+    <string name="recents_clear_all_location_title">Position des Alle aktuellen Anwendungen schließen Buttons</string>
     <string name="recents_clear_all_location_top_right">Rechts oben</string>
     <string name="recents_clear_all_location_top_left">Links oben</string>
     <string name="recents_clear_all_location_top_center">Oben mittig</string>
     <string name="recents_clear_all_location_bottom_right">Rechts unten</string>
     <string name="recents_clear_all_location_bottom_left">Links unten</string>
     <string name="recents_clear_all_location_bottom_center">Unten mittig</string>
-    <string name="recents_clear_all_dismiss_all_title">Alle Tasks beenden</string>
+    <string name="recents_clear_all_dismiss_all_title">Alle aktuellen Anwendungen beenden</string>
     <string name="recents_clear_all_dismiss_all_summary">Soll auch die App im Vordergrund beendet werden?</string>
 
     <!-- Recents Fullscreen -->
@@ -120,8 +120,8 @@
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_category">Uhr</string>
     <string name="clock_color_title">Farbe</string>
-    <string name="status_bar_clock_style_reset">Lösche Farbe</string>
-    <string name="status_bar_clock_style_reset_message">Lösche Uhr Farbe?</string>
+    <string name="status_bar_clock_style_reset">Standard</string>
+    <string name="status_bar_clock_style_reset_message">Auf Satndard Farbe setzen ?</string>
     <string name="clock_font_style_title">Schrift</string>
     <string name="clock_font_normal">Normal</string>
     <string name="clock_font_italic">Kursiv</string>
@@ -161,17 +161,17 @@
     <string name="clock_font_size_23">23</string>
 
     <!-- Navigation bar -->
-    <string name="nav_bar_title">Navigationsleite</string>
-    <string name="navbar_enable_bar_title">Buttons Navigationsleite</string>
-    <string name="navbar_enable_bar_summary">On-screen Navigationsleite Schaltflächen aktivieren</string>
-    <string name="navbar_style_dimen_title">Abmessungen der Navigationsleite</string>
-    <string name="navbar_dimensions_reset_message">Alle Dimensions-Einstellungen zurück zu Standard?</string>
-    <string name="navigation_bar_height_title">Höhe der Navigationsleite</string>
-    <string name="navigation_bar_height_summary">Höhe der Navigationsleite im Hochformat</string>
-    <string name="navigation_bar_height_landscape_title">Höhe der Navigationsleite im Querformat</string>
-    <string name="navigation_bar_height_landscape_summary">Höhe der Navigationsleite im Querformat</string>
-    <string name="navigation_bar_width_title">Breite der Navigationsleite</string>
-    <string name="navigation_bar_width_summary">Höhe der Navigationsleiten wenn die Leiste seitlich ist</string>
+    <string name="nav_bar_title">Navigationsleiste</string>
+    <string name="navbar_enable_bar_title">Navigationsleiste an</string>
+    <string name="navbar_enable_bar_summary">Bildschirm Navigationsleiste aktivieren</string>
+    <string name="navbar_style_dimen_title">Größe der Navigationsleiste</string>
+    <string name="navbar_dimensions_reset_message">Größe der Navigationsleiste wird zurückgesetzt</string>
+    <string name="navigation_bar_height_title">Höhe der Navigationsleiste</string>
+    <string name="navigation_bar_height_summary">Höhe der Navigationsleiste im Hochformat</string>
+    <string name="navigation_bar_height_landscape_title">Höhe der Navigationsleiste im Querformat</string>
+    <string name="navigation_bar_height_landscape_summary">Höhe der Navigationsleiste im Querformat</string>
+    <string name="navigation_bar_width_title">Breite der Navigationsleiste</string>
+    <string name="navigation_bar_width_summary">Höhe der Navigationsleisten wenn die Leiste seitlich ist</string>
     <string name="navigation_bar_size_42_dp_default">42 dp (Standard)</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
@@ -186,8 +186,8 @@
     <string name="navbar_button_tint_title">Navigations Button Farbe</string>
 
     <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Doppel-Klick Sleep</string>
-    <string name="double_tap_sleep_nav_bar_summary">Navigationsleite doppelklicken, um das Gerät in den Schlafzustand zu versetzen.</string>
+    <string name="double_tap_sleep_nav_bar_title">Schlafzustand bei doppeltem tippen der Navigationsleiste</string>
+    <string name="double_tap_sleep_nav_bar_summary">Navigationsleiste doppeltippen, um das Gerät in den Schlafzustand zu versetzen.</string>
 
     <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Hardware Tasten</string>
@@ -199,13 +199,13 @@
 
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">SlimDim</string>
-    <string name="dim_nav_buttons_title">Dim buttons after inactivity</string>
-    <string name="dim_nav_buttons_summary">Dim navigation bar buttons after not interacting with navigation bar for a specified time</string>
-    <string name="dim_nav_buttons_timeout_title">Timeout before dimming</string>
-    <string name="dim_nav_buttons_timeout_summary">Time (in milliseconds) to wait before dimming buttons</string>
+    <string name="dim_nav_buttons_title">Navigationsleiste dimmen, wenn inaktiv</string>
+    <string name="dim_nav_buttons_summary">Navigationsleiste nach einer bestimmten inaktiven Zeit dimmen</string>
+    <string name="dim_nav_buttons_timeout_title">Zeit der inaktivität zum dimmen</string>
+    <string name="dim_nav_buttons_timeout_summary">Zeit (in Milisekunden) zum warten bevor Navigationsleiste zu dimmen</string>
     <string name="dim_nav_buttons_alpha_title">Dim alpha</string>
-    <string name="dim_nav_buttons_alpha_summary">Alpha value to dim buttons to</string>
-    <string name="dim_nav_buttons_animate_title">Dim animation</string>
+    <string name="dim_nav_buttons_alpha_summary">Alpha Wert zum dimmen der Navigationsleiste</string>
+    <string name="dim_nav_buttons_animate_title">Dim Animation</string>
     <string name="dim_nav_buttons_animate_summary">Animate the alpha fade</string>
     <string name="dim_nav_buttons_animate_duration_title">Animation duration</string>
     <string name="dim_nav_buttons_animate_duration_summary">Duration (in milliseconds) of the alpha animation</string>
@@ -224,7 +224,7 @@
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Netzwerk Aktivität</string>
-    <string name="show_network_traffic_state">Netwerk Aktivität in der Statusleite anzeigen</string>
+    <string name="show_network_traffic_state">Netzwerk Aktivität in der Statusleite anzeigen</string>
     <string name="network_traffic_summary">Verschiedene Optionen zur Anzeige der Netzwerk-Aktivität in der Statusleiste</string>
     <string name="show_network_traffic_unit">Anzeige Einheit</string>
     <string name="show_network_traffic_frequency">Aktualisierungs-Intervall</string>

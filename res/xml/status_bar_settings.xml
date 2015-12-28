@@ -208,4 +208,9 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/statusbar_notifications_title" >
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

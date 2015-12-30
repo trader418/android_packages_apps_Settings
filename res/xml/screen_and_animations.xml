@@ -62,6 +62,13 @@
             android:title="@string/toast_icon_title"
             android:defaultValue="true" />
 
+        <!-- IME animations -->
+        <PreferenceScreen
+            android:key="ime_animations"
+            android:fragment="com.android.settings.temasek.KeyboardAnimationInterfaceSettings" 
+            android:title="@string/ime_animation_title"
+            android:summary="@string/ime_animation_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

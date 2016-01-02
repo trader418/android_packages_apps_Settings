@@ -26,6 +26,9 @@
     <string name="additional_options_title">Расширенные настройки</string>
     <string name="general_options_title">Основные</string>
     <string name="screen_and_animations_title">Экран и анимация</string>
+    <string name="quicksettings_title">Быстрые настройки</string>
+    <string name="qs_brightness_slider_title">Показывать регулятор яркости</string>
+    <string name="statusbar_notifications_title">Уведомления</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Палитра цветов</string>
@@ -926,31 +929,64 @@
 
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Ambient display</string>
-    <string name="doze_settings_title">Advanced doze options</string>
-    <string name="doze_timeout_title">Doze pulse timeout</string>
-    <string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
+    <string name="doze_settings_title">Расширенные настройки doze</string>
+    <string name="doze_timeout_title">Тайм-аут импульса doze</string>
+    <string name="doze_timeout_summary">Продолжительность (в мс) включения экрана для импульса</string>
     <string name="doze_trigger_pickup_title">Pick up gesture trigger</string>
     <string name="doze_trigger_pickup_summary_on">Doze pulse will be triggered by pick up gesture sensor events</string>
     <string name="doze_trigger_pickup_summary_off">Pick up gesture sensor will not be utilized as a triggering mechanism</string>
     <string name="doze_trigger_sigmotion_title">Significant motion trigger</string>
     <string name="doze_trigger_sigmotion_summary_on">Doze pulse will be triggered by significant motion sensor events</string>
     <string name="doze_trigger_sigmotion_summary_off">Significant motion sensor will not be utilized as a triggering mechanism</string>
-    <string name="doze_trigger_notification_title">Notification trigger</string>
-    <string name="doze_trigger_notification_summary_on">Doze pulse will be triggered by notifications</string>
-    <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
-    <string name="doze_schedule_title">Doze schedule</string>
-    <string name="doze_schedule_summary_on">Predefined doze repeat intervals (normally [1s,10s,30s,60s,120s]) will be used (default)</string>
-    <string name="doze_schedule_summary_off">Doze will only pulse once per notification</string>
-    <string name="doze_brightness_title">Doze brightness level</string>
-    <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
+    <string name="doze_trigger_notification_title">Триггер</string>
+    <string name="doze_trigger_notification_summary_on">Уведомления используются в качестве триггера для doze</string>
+    <string name="doze_trigger_notification_summary_off">Уведомления не будут использованы в качестве триггера</string>
+    <string name="doze_schedule_title">Режим пульсации</string>
+    <string name="doze_schedule_summary_on">Будут использованы предопределенные интервалы повторений [1с,10с,30с,60с,120с] (по умолчанию)</string>
+    <string name="doze_schedule_summary_off">Однократная пульсация при получении уведомления</string>
+    <string name="doze_brightness_title">Уровень яркости</string>
+    <string name="doze_brightness_summary">Уровень яркости экрана при импульсе (% от максимально допустимой яркости)</string>
 
     <!-- Doze notification color invert -->
     <string name="doze_notification_color_invert_title">Инверсия цвета</string>
-    <string name="doze_notification_color_invert_summary_off">Уведомления при \"Запрете спящего режима\" не будут инвертированы. Используйте для тёмных тем.</string>
-    <string name="doze_notification_color_invert_summary_on">Уведомления при \"Запрете спящего режима\" будут инвертированы. Используйте для светлых/стоковых тем.</string>
+    <string name="doze_notification_color_invert_summary_off">Уведомления не будут инвертированы. Используйте для тёмных тем.</string>
+    <string name="doze_notification_color_invert_summary_on">Уведомления будут инвертированы. Используйте для светлых/стоковых тем.</string>
 
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Диспетчер задач</string>
     <string name="enable_task_manager_summary">Кнопка диспетчера задач в расширенной области панели уведомлений.</string>
+
+    <!-- Notification fragment -->
+    <string name="battery_saver_notif_title">Уведомление о включении режима энергосбережения</string>
+    <string name="battery_saver_notif_summary">Если включено, то отображается уведомление о включении энегросбережения</string>
+    <string name="battery_low_notif_title">Уведомление о низком заряде</string>
+    <string name="battery_low_notif_summary">Если включено, то отображается уведомление о низком заряде батареи</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Принудительные расширенные уведомления</string>
+    <string name="force_expanded_notifications_summary">Доступно для приложений поддерживающих расширенные уведомления</string>
+
+    <!-- Disabling immersive mode messages -->
+    <string name="disable_immersive_message_title">Отключить сообщения режима погружения</string>
+    <string name="disable_immersive_message_summary">Скрывает все сообщения режима погружения</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Уведомления</string>
+    <string name="less_notification_sounds_title">Снизить частоту звуков уведомлений</string>
+    <string name="less_notification_sounds_summary">Ограничить звуки уведомлений: каждое приложение воспроизводит звук один раз в заданный временной отрезок</string>
+    <string name="less_notification_sounds_default">По умолчанию</string>
+    <string name="less_notification_sounds_3s">3 секунды</string>
+    <string name="less_notification_sounds_5s">5 секунд</string>
+    <string name="less_notification_sounds_10s">10 секунд</string>
+    <string name="less_notification_sounds_15s">15 секунд</string>
+    <string name="less_notification_sounds_30s">30 секунд</string>
+    <string name="less_notification_sounds_45s">45 секунд</string>
+    <string name="less_notification_sounds_1m">1 минута</string>
+    <string name="less_notification_sounds_2m">2 минута</string>
+    <string name="less_notification_sounds_5m">5 минута</string>
+
+    <!-- Device policy override -->
+    <string name="device_policy_override_title">Переопределение политики устройства</string>
+    <string name="device_policy_override_summary">Разрешить приложениям переопределять настройки профилей и защищённого экрана блокировки</string>
 
 </resources>

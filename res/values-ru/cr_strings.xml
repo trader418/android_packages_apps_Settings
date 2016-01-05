@@ -76,6 +76,8 @@
 
     <!-- Recents panel settings -->
     <string name="recents_panel_title">Недавние приложения</string>
+    <string name="recents_settings_title">Recents</string>
+    <string name="recents_panel_category">AOSP Recents</string>
     <string name="recents_panel_settings">Настройки \"Недавних приложений\"</string>
     <string name="show_clear_all_recents_button_title">Показывать кнопку \"Очистить всё\"</string>
     <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\" в \"Недавних приложениях\"</string>
@@ -93,8 +95,13 @@
     <string name="recents_show_fullscreen">\"Недавние приложения\" в полноэкранном режиме</string>
     <string name="recents_fullscreen_summary_enabled">Включено</string>
     <string name="recents_fullscreen_summary_disabled">Выключено</string>
+    <string name="recents_full_screen_clock_title">Показывать часы</string>
+    <string name="recents_full_screen_clock_summary">Показывать часы в полноэкранном режиме</string>
+    <string name="recents_full_screen_date_title">Показывать дату</string>
+    <string name="recents_full_screen_date_summary">Показывать дату в полноэкранном режиме</string>
 
     <!-- OmniSwitch -->
+    <string name="other_recents_category">OmniSwitch</string>
     <string name="omniswitch_settings_title">OmniSwitch</string>
     <string name="recents_use_omniswitch_title">Использовать как \"Недавние приложения\"</string>
     <string name="recents_use_omniswitch_summary">Использовать OmniSwitch вместо стандартных \"Недавних приложений\"</string>
@@ -294,8 +301,6 @@
     <string name="weather_show_weather_summary">Включить отображение информации о погоде</string>
     <string name="weather_show_location_title">Показывать местоположение</string>
     <string name="weather_show_location_summary">Включить отображение местоположения</string>
-    <string name="weather_show_timestamp_title">Показывать время</string>
-    <string name="weather_show_timestamp_summary">Включить отображение времени</string>
     <string name="weather_condition_icon_title">Стиль иконок</string>
     <string name="weather_condition_icon_dlg_title">Выберете стиль иконок для отображения погоды</string>
     <string name="weather_condition_icon_monochrome_title">Монохромные</string>
@@ -319,7 +324,6 @@
     <string name="lockscreen_maxnotif_config">Максимальное количество уведомлений</string>
 
     <!-- Show carrier label and custom -->
-
     <string name="carrier_options">Логотип оператора</string>
     <string name="custom_carrier_label_title">Свой логотип</string>
     <string name="custom_carrier_label_explain">Пожалуйста, введите имя оператора. Оставьте поле пустым для отображения по умолчанию.</string>
@@ -820,7 +824,7 @@
     <string name="onthego_alpha_title">Настройка Alpha-канала</string>
     <string name="onthego_alpha_summary">Настройка прозрачности в режиме \"На ходу\"</string>
 
-<!-- Three-fingers-swipe to screenshot -->
+    <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Свайп тремя пальцами</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами, чтобы сделать скриншот</string>
 
@@ -977,5 +981,60 @@
     <!-- Device policy override -->
     <string name="device_policy_override_title">Переопределение политики устройства</string>
     <string name="device_policy_override_summary">Разрешить приложениям переопределять настройки профилей и защищённого экрана блокировки</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Шрифт часов экрана блокировки</string>
+    <string name="lock_clock_font_summary">Сменить шрифт часов на экране блокировки</string>
+    <string name="lock_clock_font_dialog_title">Выберите шрифт</string>
+    <string name="lock_clock_font_stock">Обычный (по умолчанию)</string>
+    <string name="lock_clock_font_bold">Жирный</string>
+    <string name="lock_clock_font_italic">Курсив</string>
+    <string name="lock_clock_font_bold_italic">Жирный курсив</string>
+    <string name="lock_clock_font_light">Легкий</string>
+    <string name="lock_clock_font_light_italic">Легкий курсив</string>
+    <string name="lock_clock_font_thin">Тонкий</string>
+    <string name="lock_clock_font_thin_italic">Тонкий курсив</string>
+    <string name="lock_clock_font_condensed_normal">Плотный</string>
+    <string name="lock_clock_font_condensed_italic">Плотный курсив</string>
+    <string name="lock_clock_font_condensed_bold">Плотный жирный</string>
+    <string name="lock_clock_font_condensed_bold_italic">Плотный жирный курсив</string>
+    <string name="lock_clock_font_medium_normal">Средний</string>
+    <string name="lock_clock_font_medium_italic">Средний курсив</string>
+
+    <!-- Slim Recents -->
+    <string name="recent_panel_category">\"Недавние приложения\" от Slim</string>
+    <string name="slim_recents_panel">Slim Recents</string>
+    <string name="use_slim_recents_title">Slim recents</string>
+    <string name="show_running_tasks_title">Показывать только запущенные приложения</string>
+    <string name="recents_max_apps_title">Максимум запущенных приложений</string>
+    <string name="recent_panel_scale_title">Размер</string>
+    <string name="recent_panel_expanded_mode_title">Расширенный режим</string>
+    <string name="recent_panel_expanded_mode_summary">Расширенный режим просмотра недавних приложений</string>
+    <string name="recent_panel_expanded_mode_auto">Авто (по умолчанию)</string>
+    <string name="recent_panel_expanded_mode_always">Всегда</string>
+    <string name="recent_panel_expanded_mode_never">Никогда</string>
+    <string name="recent_panel_show_topmost_title">Показывать последнее приложение</string>
+    <string name="recent_panel_show_topmost_summary">Показывать последнее приложение в списке недавних</string>
+    <string name="recent_panel_bg_color_title">Цвет фона панели</string>
+    <string name="recent_card_bg_color_title">Цвет фона карточки</string>
+    <string name="recent_card_text_color_title">Цвет текста карточки</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
+    <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений у левого края</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">Боковая панель приложений</string>
+    <string name="recent_app_sidebar_summary">Показывать ярлыки приложений на другом краю</string>
+    <string name="recent_app_sidebar_style_title">Стиль панели</string>
+    <string name="recent_app_sidebar_style_summary">Изменить стиль панели приложений</string>
+    <string name="recent_app_sidebar_hide_labels_title">Скрыть текст иконок</string>
+    <string name="recent_app_sidebar_label_color_title">Цвет текста</string>
+    <string name="recent_app_sidebar_bg_color_title">Цвет фона</string>
+    <string name="recent_app_sidebar_scale_title">Размер</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скриншота</string>
+    <string name="screenshot_sound_summary">Проигрывать звук при скриншоте</string>
 
 </resources>

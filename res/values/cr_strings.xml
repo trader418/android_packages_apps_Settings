@@ -1048,4 +1048,9 @@
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
+
 </resources>

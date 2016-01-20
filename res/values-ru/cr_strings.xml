@@ -1087,4 +1087,8 @@
     <string name="safe_headset_volume_summary">Предотвратить громкий звук, когда впервые подключена гарнитура</string>
     <string name="safe_headset_volume_warning_dialog_text">Долгое прослушивание на большой громкости может повредить слух. Отключайте с осторожностью.</string>
 
+    <!-- Lockscreen Torch -->
+    <string name="keyguard_torch_title">Фонарик</string>
+    <string name="keyguard_torch_summary">Долгое нажатие на кнопку включения, при выключенном экране, включает фонарик</string>
+
 </resources>

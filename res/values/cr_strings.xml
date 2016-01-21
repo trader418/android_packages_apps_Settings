@@ -1081,6 +1081,7 @@
     <string name="block_on_secure_keyguard_summary">Disables quick settings in the keyguard for a secure lock only</string>
 
     <!-- Notification color settings -->
+    <string name="notification_color_settings_title">Notification color</string>
     <string name="notification_drawer_clear_all_icon_color_title">Clear all icon</string>
 
     <!-- QS shade transparency -->

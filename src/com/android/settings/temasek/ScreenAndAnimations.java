@@ -14,6 +14,7 @@ import android.provider.Settings;
 import android.widget.Toast;
 
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.temasek.SeekBarPreference;
 import com.android.settings.R;
 
 import com.android.internal.logging.MetricsLogger;
@@ -29,6 +30,7 @@ public class ScreenAndAnimations extends SettingsPreferenceFragment implements
     private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
     private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
     private static final String SCROLLINGCACHE_DEFAULT = "2";
+    private static final String PREF_TRANSPARENT_VOLUME_DIALOG = "transparent_volume_dialog";
 
     private Context mContext;
 
@@ -36,6 +38,7 @@ public class ScreenAndAnimations extends SettingsPreferenceFragment implements
     private ListPreference mListViewAnimation;
     private ListPreference mListViewInterpolator;
     private ListPreference mScrollingCachePref;
+    private SeekBarPreference mVolumeDialogAlpha;
 
     @Override
     protected int getMetricsCategory() {
@@ -83,6 +86,14 @@ public class ScreenAndAnimations extends SettingsPreferenceFragment implements
         mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
                 SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
         mScrollingCachePref.setOnPreferenceChangeListener(this);
+
+        // Volume dialog alpha
+        mVolumeDialogAlpha =
+                (SeekBarPreference) prefSet.findPreference(PREF_TRANSPARENT_VOLUME_DIALOG);
+        int volumeDialogAlpha = Settings.System.getInt(resolver,
+                Settings.System.TRANSPARENT_VOLUME_DIALOG, 255);
+        mVolumeDialogAlpha.setValue(volumeDialogAlpha / 1);
+        mVolumeDialogAlpha.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -118,6 +129,11 @@ public class ScreenAndAnimations extends SettingsPreferenceFragment implements
             if (newValue != null) {
                 SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String) newValue);
             }
+            return true;
+        } else if (preference == mVolumeDialogAlpha) {
+            int alpha = (Integer) newValue;
+            Settings.System.putInt(resolver,
+                   Settings.System.TRANSPARENT_VOLUME_DIALOG, alpha * 1);
             return true;
         }
         return false;

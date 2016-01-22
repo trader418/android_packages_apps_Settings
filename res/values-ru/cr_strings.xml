@@ -1077,10 +1077,14 @@
     <string name="block_on_secure_keyguard_summary">Отключить быстрые настройки на защищённом экране блокировки</string>
 
     <!-- Notification color settings -->
+    <string name="notification_color_settings_title">Настройки цвета уведомлений</string>
     <string name="notification_drawer_clear_all_icon_color_title">Цвет кнопки \"Очистить всё\"</string>
 
     <!-- QS shade transparency -->
     <string name="qs_transparent_shade">Прозрачность</string>
+
+    <!-- QS header transparency -->
+    <string name="qs_transparent_header">QS header transparency</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Безопасная громкость</string>
@@ -1090,5 +1094,13 @@
     <!-- Lockscreen Torch -->
     <string name="keyguard_torch_title">Фонарик</string>
     <string name="keyguard_torch_summary">Долгое нажатие на кнопку включения, при выключенном экране, включает фонарик</string>
+
+    <!-- Breathing Notifications -->
+    <string name="breathing_notifications_category">\"Живые\" уведомления</string>
+    <string name="breathing_notifications_title">\"Живые\" уведомления</string>
+    <string name="missed_call_breath_title">\"Живой\" пропущенный вызов</string>
+    <string name="missed_call_breath_summary">Придаст \"эффект дыхания\" вашему сообщению о пропущенных звонках в строке состояния</string>
+    <string name="voicemail_breath_title">\"Живая\" голосовая почта</string>
+    <string name="voicemail_breath_summary">Придаст \"эффект дыхания\" вашему сообщению о голосовой почте в строке состояния</string>
 
 </resources>

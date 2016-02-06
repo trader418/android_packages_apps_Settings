@@ -1152,4 +1152,9 @@
     <string name="show_fourg_summary">Replaces LTE statusbar indicator with 4G. Reboot is required to take effect.</string>
     <string name="statusbar_tuner_category_title">Hide items from statusbar</string>
 
+    <!-- Hide Lockscreen clock & date -->
+    <string name="hide_lockscreen_items_title">Lockscreen items</string>
+    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+
 </resources>

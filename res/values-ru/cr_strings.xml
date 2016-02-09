@@ -235,9 +235,10 @@
     <string name="dim_nav_buttons_touch_anywhere_summary_on">Прикосновение к любой части экрана зажжет кнопки обратно</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_off">Только прикосновение к панели навигации зажигает кнопки</string>
 
-    <!-- Time-context headers in notification header -->
-    <string name="contextual_title">Динамические заголовки</string>
-    <string name="status_bar_custom_header_title">Динамический фон заголовка</string>
+    <!-- Status bar header -->
+    <string name="status_bar_header_title">Заголовок строки состояния</string>
+    <string name="status_bar_header_font_style_title">Стиль шрифта</string>
+    <string name="status_bar_custom_header_title">Динамический фон</string>
     <string name="status_bar_custom_header_summary">Изменение заголовка панели уведомлений в зависимости от времени суток</string>
     <string name="status_bar_custom_header_default_title">Выбрать изображения</string>
     <string name="custom_header_image_0">По умолчанию</string>
@@ -365,6 +366,7 @@
     <string name="status_bar_carrier_position">Расположение в строке состояния</string>
     <string name="status_bar_logo_position_left">Слева</string>
     <string name="status_bar_logo_position_right">Справа</string>
+    <string name="status_bar_carrier_font_style_title">Стиль шрифта</string>
 
     <!-- Lockscreen wallpaper -->
     <string name="lockscreen_wallpaper_title">Обои</string>
@@ -1146,5 +1148,10 @@
     <string name="show_fourg_title">Показать 4G вместо LTE</string>
     <string name="show_fourg_summary">Заменяет LTE индикатор в строке состояния на 4G. Необходима перезагрузка.</string>
     <string name="statusbar_tuner_category_title">Настройка строки состояния</string>
+
+    <!-- Hide Lockscreen clock & date -->
+    <string name="hide_lockscreen_items_title">Элементы экрана блокировки</string>
+    <string name="hide_lockscreen_clock_title">Показывать часы</string>
+    <string name="hide_lockscreen_date_title">Показывать дату</string>
 
 </resources>

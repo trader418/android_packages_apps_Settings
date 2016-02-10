@@ -95,7 +95,7 @@ public class ColorPickerPreference extends DialogPreference implements
                     mDefaultValue = context.getResources().getInteger(resourceId);
                 }
             }
-            mAlphaSliderEnabled = attrs.getAttributeBooleanValue(null, "alphaSlider", true);
+            mAlphaSliderEnabled = attrs.getAttributeBooleanValue(null, "alphaSlider", false);
         }
         mValue = mDefaultValue;
     }

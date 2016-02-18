@@ -1106,4 +1106,16 @@
     <string name="hide_lockscreen_clock_title">Показывать часы</string>
     <string name="hide_lockscreen_date_title">Показывать дату</string>
 
+    <!-- Smart pulldown -->
+    <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
+    <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
+    <string name="smart_pulldown_off">Выкл</string>
+    <string name="smart_pulldown_dismissable">Без удаляемых</string>
+    <string name="smart_pulldown_persistent">Без постоянных</string>
+    <string name="smart_pulldown_all">Без удаляемых и постоянных</string>
+
+    <!-- QS Tiles Columns -->
+    <string name="qs_num_columns_title">Количество плиток в ряду</string>
+    <string name="qs_num_columns_showing">Отображать плиток в ряду: %1$s</string>
+
 </resources>

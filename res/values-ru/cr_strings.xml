@@ -1075,18 +1075,17 @@
     <string name="voicemail_breath_summary">Придаст \"эффект дыхания\" вашему сообщению о голосовой почте в строке состояния</string>
 
     <!-- Dashboard columns -->
+    <string name="dashboard_category">Панель настроек</string>
     <string name="dashboard_columns_title">Колонки</string>
     <string name="dashboard_columns_summary">Изменение количества колонок отображаемых на панели настроек</string>
     <string name="dashboard_columns_dialog_title">Выберите количество колонок</string>
-    <string name="dashboard_columns_default">Одна (по умолчанию)</string>
+    <string name="dashboard_columns_one">Одна</string>
     <string name="dashboard_columns_two">Две</string>
     <string name="dashboard_columns_three">Три</string>
-
-    <!-- Dashboard tileview double lines -->
-    <string name="dashboard_category">Панель настроек</string>
     <string name="dashboard_tileview_double_lines_title">Отображение названия пунктов</string>
-    <string name="dashboard_tileview_double_lines_summary_on">Отображать названия пунктов в одну строку</string>
-    <string name="dashboard_tileview_double_lines_summary_off">Отображать названия пунктов в две строки</string>
+    <string name="dashboard_tileview_double_lines_summary">Отображать названия пунктов в две строки</string>
+    <string name="dashboard_tileview_dividers_title">Разделители</string>
+    <string name="dashboard_tileview_dividers_summary">Скрыть разделители</string>
 
     <!-- Selinux Switch -->
     <string name="selinux_switch_title">Переключение режимов Selinux</string>
@@ -1108,11 +1107,11 @@
 
     <!-- Smart pulldown -->
     <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
-    <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки %1$s уведомлений</string>
     <string name="smart_pulldown_off">Выкл</string>
     <string name="smart_pulldown_dismissable">Без удаляемых</string>
     <string name="smart_pulldown_persistent">Без постоянных</string>
-    <string name="smart_pulldown_all">Без удаляемых и постоянных</string>
+    <string name="smart_pulldown_all">Без удаляемых или постоянных</string>
 
     <!-- QS Tiles Columns -->
     <string name="qs_num_columns_title">Количество плиток в ряду</string>

@@ -1117,4 +1117,8 @@
     <string name="qs_num_columns_title">Количество плиток в ряду</string>
     <string name="qs_num_columns_showing">Отображать плиток в ряду: %1$s</string>
 
+    <!-- QS Tiles Rows -->
+    <string name="qs_num_rows_title">Количество строк</string>
+    <string name="qs_num_rows_showing">Отображать строк: %1$s</string>
+
 </resources>

@@ -75,6 +75,11 @@
             android:entryValues="@array/clock_font_size_values"
             android:title="@string/clock_font_size_title" />
 
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="statusbar_clock_seconds"
+            android:title="@string/status_bar_show_seconds_title"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

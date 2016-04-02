@@ -4,10 +4,6 @@
 
     <!-- About phone screen, Temasek version -->
     <string name="temasek_version_title">Versione Temasek non ufficiale</string>
-    <!-- Do NOT translate this -->
-    <string name="temasek_version_default">Crea V4.6</string>
-    <string name="android_version_title">Marshmallow</string>
-    <string name="android_version_default">6.0.1 MMB29U Release 13</string>
 
     <!-- temasek spare parts -->
     <string name="temasek_settings_title">Temasek impostazioni</string>
@@ -47,7 +43,7 @@
     <string name="set">Impostata</string>
     <string name="color_default">Predefinito</string>
     
-<!-- About device screen, CPU and RAM info. -->
+    <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">CPU</string>
     <string name="mem_info">RAM</string>
 
@@ -229,7 +225,7 @@
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">SlimDim</string>
     <string name="dim_nav_buttons_title">Oscurare i pulsanti dopo inattività</string>
-	<string name="dim_nav_buttons_summary">Oscurare i pulsanti della barra di navigazione per un periodo di tempo specificato dopo che non si interaggisce più con la stessa</string>
+    <string name="dim_nav_buttons_summary">Oscurare i pulsanti della barra di navigazione per un periodo di tempo specificato dopo che non si interaggisce più con la stessa</string>
     <string name="dim_nav_buttons_timeout_title">Tempo prima dello spegnimento dello schermo</string>
     <string name="dim_nav_buttons_timeout_summary">Il tempo (in millisecondi) di attesa prima di spegnere i pulsanti</string>
     <string name="dim_nav_buttons_alpha_title">Valore alpha di oscuramento</string>
@@ -269,7 +265,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Nascondi automaticamente</string>
-    <string name="network_traffic_autohide_summary">Nascondere il traffico rete quando non c'è attività</string>
+    <string name="network_traffic_autohide_summary">Nascondere il traffico rete quando non c\'è attività</string>
     <string name="network_traffic_hidearrow">Nascondi frecce</string>
     <string name="network_traffic_hidearrow_summary">Nascondere le frecce degli indicatori di traffico</string>
     <string name="network_traffic_autohide_threshold">Soglia di inattività</string>
@@ -337,7 +333,7 @@
     <string name="weather_show_timestamp_title">Mostra timestamp</string>
     <string name="weather_show_timestamp_summary">Abilitare per mostrare il timestamp</string>
     <string name="weather_condition_icon_title">Icona Condizione</string>
-    <string name="weather_condition_icon_dlg_title">Scegliere un'icona per visualizzare le condizioni meteo</string>
+    <string name="weather_condition_icon_dlg_title">Scegliere un\'icona per visualizzare le condizioni meteo</string>
     <string name="weather_condition_icon_monochrome_title">Monocromo</string>
     <string name="weather_condition_icon_colored_title">Colorato</string>
     <string name="weather_condition_icon_vclouds_title">VClouds</string>
@@ -399,7 +395,7 @@
     <string name="camera_sounds_title">Suono dell\'otturatore</string>
     <string name="camera_sounds_summary">Abilita sistema di suono dell\'otturatore</string>
     
-	<string name="camera_sound_warning_dialog_text">La disattivazione del suono dell\'otturatore è illegale in alcune zone! Si prega di verificare la legge applicabile nel vostro paese</string>
+    <string name="camera_sound_warning_dialog_text">La disattivazione del suono dell\'otturatore è illegale in alcune zone! Si prega di verificare la legge applicabile nel vostro paese</string>
     <!-- Lock clock -->
     <string name="lock_clock_title">Widget orologio</string>
     <string name="lock_clock_summary">Visualizza o cambia la visualizzazione del widget orologio</string>
@@ -511,7 +507,7 @@
     <string name="shortcut_action_help_app">App</string>
     <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono possibilità  di personalizzazione</string>
     	
-	<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\nper rimuovere un %1$s , strisciare la fila orizzontale verso sinistra o destra. Re-ordine a %1$s nella lista trascinando verticalmente l\'ancora a sinistra.\n\nPer trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
+    <string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\nper rimuovere un %1$s , strisciare la fila orizzontale verso sinistra o destra. Re-ordine a %1$s nella lista trascinando verticalmente l\'ancora a sinistra.\n\nPer trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
     <string name="shortcut_action_help_delete_last_entry">Rimozione di ogni %1$s nella lista si disattierà la funzione del tutto.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimozione di ogni %1$s nella lista disabiliterà il secondo strato di torta del tutto.</string>
     <string name="shortcuts_applications">Applicazioni</string>
@@ -703,7 +699,7 @@
     <string name="shortcut_action_media_previous">Musica - traccia precedente</string>
     <string name="shortcut_action_wake_device">Servizio sveglia</string>
     
-	<string name="shortcut_action_longpress">Pressione prolungata:</string>
+    <string name="shortcut_action_longpress">Pressione prolungata:</string>
     <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolugata:</string>
     <string name="shortcut_action_select_action">Scegli azione:</string>
     <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
@@ -724,7 +720,7 @@
     <string name="shortcut_action_help_delete_last_entry">Rimozione di ogni %1$s nella lista si disattivare la funzione del tutto.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimozione di ogni %1$s nella lista disabiliterà  il secondo strato di torta del tutto.</string>
     
-	<!-- Restart SystemUI -->
+    <!-- Restart SystemUI -->
     <string name="restart_systemui">Riavvia SystemUI</string>
 
     <!-- App Circle sidebar -->
@@ -738,7 +734,7 @@
     <string name="trigger_top_title">Posizione di zona</string>
     <string name="trigger_top_summary">Regolare la postion verticale della zona di innesco</string>
     <string name="trigger_bottom_title">Altezza zona</string>
-    <string name="trigger_bottom_summary">Regolare l'altezza della zona di innesco</string>
+    <string name="trigger_bottom_summary">Regolare l\'altezza della zona di innesco</string>
 
     <!-- Toast animations -->
     <string name="toast_animation_title">Animazioni Toast</string>
@@ -800,7 +796,7 @@
     <string name="keyboard_rotation_toggle_title">Auto rotazione tastiera</string>
     <string name="keyboard_rotation_toggle_summary">Forza la rotazione automatica quando viene visualizzata la tastiera</string>
     <string name="keyboard_rotation_timeout_title">Timeout Rotazione automatica</string>
-    <string name="keyboard_rotation_timeout_summary">Disattiva sensore rotazione automatica <xliff:g id="rotate_timeout"> secondi dopo che la tastiera è nascosta</string>
+    <string name="keyboard_rotation_timeout_summary">Disattiva sensore rotazione automatica <xliff:g id="rotate_timeout">%1$s</xliff:g> secondi dopo che la tastiera è nascosta</string>
     <string name="keyboard_rotation_dialog">La sua funzione impone la rotazione automatica e attivare temporaneamente mentre la tastiera è visualizzata. Essa non ha alcun effetto quando la rotazione automatica è già abilitato</string>
     <string name="show_enter_key_title">Mostra tasto invio</string>
     <string name="show_enter_key_summary">Forza tastiera per mostrare entrare al posto del tasto emoticon</string>
@@ -846,7 +842,7 @@
     <string name="pa_pie_size_title">Pie Size</string>
     <string name="pa_pie_size_summary">Definire Pie dimensioni controlli</string>
     <string name="pa_pie_size_small">Piccolo</string>
-    <string name="pa_pie_size_default">@String/pa_pie_mode_default</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
     <string name="pa_pie_size_large">Grande</string>
     <string name="pa_pie_size_gigantic">Gigantesco</string>
     <string name="pa_pie_size_monster">Mostro</string>
@@ -969,7 +965,7 @@
     <string name="device_policy_override_title">Override Device Policy</string>
     <string name="device_policy_override_summary">Consentire alle applicazioni di forzare la schermata di blocco sicuro e sovrascrivono le impostazioni del profilo</string>
     
-	<!-- Lock Clock Fonts -->
+    <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Blocco orologio Font</string>
     <string name="lock_clock_font_summary">Modificare il carattere predefinito del widget orologio nella sulla schermata di blocco</string>
     <string name="lock_clock_font_dialog_title">Selezionare carattere orologio di blocco</string>
@@ -1072,7 +1068,7 @@
     <string name="keyguard_torch_title">Torcia nella schermata di blocco</string>
   	<string name="keyguard_torch_summary">Pressione prolungata sul pulsante alimentazione mentre lo schermo è disattivato per accendere la torcia elettrica</string>
     
-	<!-- Breathing Notifications -->
+    <!-- Breathing Notifications -->
     <string name="breathing_notifications_category">Frequenza notifiche</string>
     <string name="breathing_notifications_title">Frequenza notifiche</string>
     <string name="missed_call_breath_title">Frequenza della chiamata senza risposta</string>

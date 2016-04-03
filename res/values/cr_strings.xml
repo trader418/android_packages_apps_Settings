@@ -1187,6 +1187,10 @@
     <string name="heads_up_snooze_45min">45 minutes</string>
     <string name="heads_up_snooze_60min">60 minutes</string>
 
+    <!-- Force Heads Up on all applications -->
+    <string name="force_headsup_title">Force heads up</string>
+    <string name="force_headsup_summary">Force heads up in all applications</string>
+
     <!-- Battery light settings -->
     <string name="battery_light_full_color_title">Charged (90%)</string>
     <string name="battery_light_really_full_color_title">Charged (100%)</string>

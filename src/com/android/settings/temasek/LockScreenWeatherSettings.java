@@ -35,7 +35,6 @@ import android.view.MenuItem;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
 
 import com.android.internal.logging.MetricsLogger;
 
@@ -60,8 +59,6 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             "weather_text_color";
     private static final String PREF_ICON_COLOR =
             "weather_icon_color";
-    private static final String LOCKSCREEN_MAX_NOTIF_CONFIG =
-            "lockscreen_max_notif_cofig";
 
     private static final int MONOCHROME_ICON = 0;
     private static final int DEFAULT_COLOR = 0xffffffff;
@@ -77,7 +74,6 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
     private SwitchPreference mColorizeAllIcons;
     private ColorPickerPreference mTextColor;
     private ColorPickerPreference mIconColor;
-    private SeekBarPreference mMaxKeyguardNotifConfig;
 
     private ContentResolver mResolver;
 
@@ -122,12 +118,6 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
                 (ColorPickerPreference) findPreference(PREF_TEXT_COLOR);
         mIconColor =
                 (ColorPickerPreference) findPreference(PREF_ICON_COLOR);
-
-	mMaxKeyguardNotifConfig = (SeekBarPreference) findPreference(LOCKSCREEN_MAX_NOTIF_CONFIG);
-        int kgconf = Settings.System.getInt(mResolver,
-                Settings.System.LOCKSCREEN_MAX_NOTIF_CONFIG, 5);
-        mMaxKeyguardNotifConfig.setValue(kgconf);
-        mMaxKeyguardNotifConfig.setOnPreferenceChangeListener(this);
 
         if (showWeather) {
             mShowLocation =
@@ -250,11 +240,6 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             Settings.System.putInt(mResolver,
                     Settings.System.LOCK_SCREEN_WEATHER_TEXT_COLOR, intHex);
             preference.setSummary(hex);
-            return true;
-	} else if (preference == mMaxKeyguardNotifConfig) {
-            int kgconf = (Integer) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.LOCKSCREEN_MAX_NOTIF_CONFIG, kgconf);
             return true;
         } else if (preference == mIconColor) {
             hex = ColorPickerPreference.convertToARGB(

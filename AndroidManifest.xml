@@ -2212,6 +2212,9 @@
             </intent-filter>
         </receiver>
 
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name=".temasek.HAFRAppListActivity" />
+
         <!-- temasek activities End -->
 
         <!-- CyanogenMod activities Start -->

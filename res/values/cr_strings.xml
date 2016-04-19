@@ -1196,4 +1196,9 @@
     <string name="battery_light_full_color_title">Charged (90%)</string>
     <string name="battery_light_really_full_color_title">Charged (100%)</string>
 
+    <!-- Hide apps from recents -->
+    <string name="hide_from_recents_add_app">Add App</string>
+    <string name="hide_apps_from_recents_title">Hidden Apps</string>
+    <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel.</string>
+
 </resources>

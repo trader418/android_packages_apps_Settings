@@ -46,18 +46,11 @@
                 android:summary="@string/dashboard_switches_summary"
                 android:persistent="false" />
 
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-                android:key="dashboard_customizations"
-                android:title="@string/db_customizations_title"
-                android:summary="@string/db_customizations_summary"
-                android:defaultValue="false" />
-
         <ListPreference
                 android:key="dashboard_font_style"
                 android:entries="@array/dashboard_font_style_entries"
                 android:entryValues="@array/dashboard_font_style_values"
-                android:title="@string/dashboard_font_style_title"
-                android:dependency="dashboard_customizations" />
+                android:title="@string/dashboard_font_style_title" />
 
         <com.android.settings.temasek.SeekBarPreference
                 android:key="settings_category_text_size"
@@ -66,8 +59,7 @@
                 settings:minimum="4"
                 settings:defaultValue="15"
                 settings:unitsLeft=""
-                settings:unitsRight="dp"
-                android:dependency="dashboard_customizations" />
+                settings:unitsRight="dp" />
 
         <com.android.settings.temasek.SeekBarPreference
                 android:key="settings_title_text_size"
@@ -76,14 +68,12 @@
                 settings:minimum="4"
                 settings:defaultValue="14"
                 settings:unitsLeft=""
-                settings:unitsRight="dp"
-                android:dependency="dashboard_customizations" />
+                settings:unitsRight="dp" />
 
         <PreferenceScreen
-                android:key="dashboard_custom_colors"
-                android:title="@string/dashboard_colors_title"
+                android:key="settings_colors"
+                android:title="@string/settings_colors_title"
                 android:fragment="com.android.settings.temasek.DashboardColors"
-                android:summary="@string/dashboard_colors_summary"
-                android:dependency="dashboard_customizations" />
+                android:summary="@string/settings_colors_summary" />
 
 </PreferenceScreen>

@@ -18,7 +18,6 @@ package com.android.settings.dashboard;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.PorterDuff.Mode;
 import android.graphics.Typeface;
 import android.provider.Settings;
 import android.util.AttributeSet;
@@ -48,7 +47,6 @@ public class DashboardTileView extends FrameLayout implements View.OnClickListen
     private View mDivider;
     private Switch mSwitch;
     private GenericSwitchToggle mSwitchToggle;
-    private int mIconColor;
 
     private int mColSpan = DEFAULT_COL_SPAN;
 
@@ -97,7 +95,6 @@ public class DashboardTileView extends FrameLayout implements View.OnClickListen
             Settings.System.SETTINGS_CATEGORY_TEXT_COLOR, 0xff1976D2));
         setFocusable(true);
         updateDashFont();
-        updateIconColor();
     }
 
     public TextView getTitleTextView() {
@@ -111,7 +108,6 @@ public class DashboardTileView extends FrameLayout implements View.OnClickListen
     }
 
     public ImageView getImageView() {
-        updateIconColor();
         return mImageView;
     }
 
@@ -267,15 +263,6 @@ public class DashboardTileView extends FrameLayout implements View.OnClickListen
                 mTitleTextView.setTypeface(Typeface.create("sans-serif-black", Typeface.ITALIC));
                 mStatusTextView.setTypeface(Typeface.create("sans-serif-black", Typeface.ITALIC));
                 break;
-        }
-    }
-
-    private void updateIconColor() {
-        mIconColor = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.SETTINGS_ICON_COLOR, 0xa0000000);
-
-        if (mImageView != null) {
-            mImageView.setColorFilter(mIconColor, Mode.MULTIPLY);
         }
     }
 }

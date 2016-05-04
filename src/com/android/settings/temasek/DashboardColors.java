@@ -21,7 +21,6 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.ContentResolver;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.preference.Preference;
@@ -40,23 +39,17 @@ import com.android.internal.logging.MetricsLogger;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
-import android.provider.SearchIndexableResource;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
-
-import java.util.List;
-import java.util.ArrayList;
-
 public class DashboardColors extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String PREF_BG_COLOR = "settings_bg_color";
-    private static final String PREF_ICON_COLOR = "settings_icon_color";
-    private static final String PREF_TEXT_COLOR = "settings_title_text_color";
-    private static final String PREF_CAT_TEXT_COLOR = "settings_category_text_color";
+    private static final String PREF_BG_COLOR =
+            "settings_bg_color";
+    private static final String PREF_TEXT_COLOR =
+            "settings_title_text_color";
+    private static final String PREF_CAT_TEXT_COLOR =
+            "settings_category_text_color";
 
     private ColorPickerPreference mBgColor;
-    private ColorPickerPreference mIconColor;
     private ColorPickerPreference mTextColor;
     private ColorPickerPreference mCatTextColor;
 
@@ -97,15 +90,6 @@ public class DashboardColors extends SettingsPreferenceFragment implements
         mBgColor.setNewPreviewColor(intColor);
         mBgColor.setSummary(hexColor);
         mBgColor.setOnPreferenceChangeListener(this);
-
-        mIconColor =
-                (ColorPickerPreference) findPreference(PREF_ICON_COLOR);
-        intColor = Settings.System.getInt(mResolver,
-                Settings.System.SETTINGS_ICON_COLOR, WHITE);
-        hexColor = String.format("#%08x", (0xffffffff & intColor));
-        mIconColor.setNewPreviewColor(intColor);
-        mIconColor.setSummary(hexColor);
-        mIconColor.setOnPreferenceChangeListener(this);
 
         mTextColor =
                 (ColorPickerPreference) findPreference(PREF_TEXT_COLOR);
@@ -174,14 +158,6 @@ public class DashboardColors extends SettingsPreferenceFragment implements
                     Settings.System.SETTINGS_CATEGORY_TEXT_COLOR, intHex);
             preference.setSummary(hex);
             return true;
-        } else if (preference == mIconColor) {
-            hex = ColorPickerPreference.convertToARGB(
-                    Integer.valueOf(String.valueOf(newValue)));
-            intHex = ColorPickerPreference.convertToColorInt(hex);
-            Settings.System.putInt(mResolver,
-                    Settings.System.SETTINGS_ICON_COLOR, intHex);
-            preference.setSummary(hex);
-            return true;
         }
         return false;
     }
@@ -222,9 +198,6 @@ public class DashboardColors extends SettingsPreferenceFragment implements
                                     Settings.System.SETTINGS_BG_COLOR,
                                     WHITE);
                             Settings.System.putInt(getOwner().mResolver,
-                                    Settings.System.SETTINGS_ICON_COLOR,
-                                    HOLO_BLUE_LIGHT);
-                            Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.SETTINGS_TITLE_TEXT_COLOR,
                                     BLACK);
                             Settings.System.putInt(getOwner().mResolver,
@@ -239,9 +212,6 @@ public class DashboardColors extends SettingsPreferenceFragment implements
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.SETTINGS_BG_COLOR,
                                     WHITE);
-                            Settings.System.putInt(getOwner().mResolver,
-                                    Settings.System.SETTINGS_ICON_COLOR,
-                                    0xffc0c0c0);
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.SETTINGS_TITLE_TEXT_COLOR,
                                     BLACK);

@@ -349,7 +349,6 @@
     <string name="dlg_reset_android">Ok</string>
     <string name="colors_title">Colors</string>
     <string name="text_title">Text</string>
-    <string name="toolbar_title">Toolbar</string>
 
     <!-- Max Lockscreen Notification count -->
     <string name="weather_cat_notifications_title">Notifications</string>

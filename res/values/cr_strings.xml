@@ -1263,4 +1263,8 @@
     <string name="lid_controls_wake_title">Control wake</string>
     <string name="lid_controls_wake_summary">Turn screen on when lid opens</string>
 
+    <!-- make overlay permission check configurable -->
+    <string name="toggle_package_install_overlay_check_title">Disable permission overlay check</string>
+    <string name="toggle_package_install_overlay_check_summary">WARNING\u003A this disables a security check to prevent possible tapjacking! Use only if you understand the consequences.</string>
+
 </resources>

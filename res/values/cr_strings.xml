@@ -5,9 +5,9 @@
     <!-- About phone screen, Temasek version -->
     <string name="temasek_version_title">Trader418 unofficial version</string>
     <!-- Do NOT translate this -->
-    <string name="temasek_version_default">Build V12.1</string>
+    <string name="temasek_version_default">Build V12.2</string>
     <string name="android_version_title">Marshmallow</string>
-    <string name="android_version_default">6.0.1 MOB30Z Release 61</string>
+    <string name="android_version_default">6.0.1 M4B30X Release 72</string>
 
     <!-- temasek spare parts -->
     <string name="temasek_settings_title">Temasek spare parts</string>
@@ -182,7 +182,7 @@
     <string name="clock_font_size_16">16</string>
     <string name="clock_font_size_17">17</string>
     <string name="clock_font_size_18">18</string>
-    <string name="clock_font_size_19">19</string>
+    <string name="clock_font_size_19">19</MOB30Zstring>
     <string name="clock_font_size_20">20</string>
     <string name="clock_font_size_21">21</string>
     <string name="clock_font_size_22">22</string>
@@ -611,7 +611,7 @@
     <string name="teamviewer">Teamviewer</string>
     <string name="totalcommander">Total commander</string>
     <string name="weather">Weather</string>
-    <string name="golocker">Go locker</string>   
+    <string name="golocker">Go locker</string>
     <string name="googlecurrents">Google currents</string>
     <string name="googletalk">Google talk</string>
     <string name="gosms">Go sms</string>
@@ -637,7 +637,7 @@
     <string name="googleplus">Google plus</string>
     <string name="imdb">imdb</string>
     <string name="instagram">instagram</string>
-    <string name="lastfm">Lastfm</string>   
+    <string name="lastfm">Lastfm</string>
     <string name="maps">Maps</string>
     <string name="messages">Messages</string>
     <string name="music">Music</string>
@@ -721,7 +721,7 @@
     <string name="shortcut_action_help_main">To add a %1$s, select the Add icon. Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right. Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the reset option.</string>
     <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
-    
+
     <!-- App sidebar -->
     <string name="app_sidebar_title">Appbar</string>
     <string name="app_sidebar_enable_title">Enable Appbar</string>
